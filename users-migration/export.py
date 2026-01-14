@@ -9,7 +9,7 @@ USERNAME = "<master-admin"
 PASSWORD = "*******"
 CLIENT_ID = "admin-cli"
 
-PAGE_SIZE = 100
+PAGE_SIZE = 1000
 OUTPUT_FILE = "users.json"
 VERIFY_SSL = False   # set True if valid CA
 
