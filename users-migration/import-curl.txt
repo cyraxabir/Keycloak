@@ -1,6 +1,12 @@
+## Get token
+
 curl --location 'https://----.com/realms/master/protocol/openid-connect/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'client_id=admin-cli' \
 --data-urlencode 'grant_type=password' \
 --data-urlencode 'username=<master-realm-admin>' \
 --data-urlencode 'password=<*******>'
+
+## Export users.json
+curl --location 'https://-----.com/admin/realms/<the-realm-name>/users?max=1000' \
+--header 'Authorization: Bearer eyJhbGciOiJS*****************'
